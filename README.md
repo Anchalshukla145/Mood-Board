@@ -35,7 +35,7 @@ Each mood launches its **own activity** with animations, transitions, and distin
 
 | Mood Board Home | Happy Mood | Excited Mood | Angry Mood | Sad Mood | Relaxed Mood | Tired Mood |
 |-----------------|-------------|---------------|-------------|-----------|----------------|-------------|
-| ![Home](screenshots/home.jpeg) | ![Happy](screenshots/happy.png) | ![Excited](screenshots/excited.png) | ![Angry](screenshots/angry.png) | ![Sad](screenshots/sad.png) | ![Relaxed](screenshots/relaxed.png) | ![Tired](screenshots/tired.png) |
+| ![Home](screenshots/home.jpeg) | ![Happy](screenshots/happy.jpeg) | ![Excited](screenshots/excited.jpeg) | ![Angry](screenshots/angry.jpeg) | ![Sad](screenshots/sad.jpeg) | ![Relaxed](screenshots/relaxed.jpeg) | ![Tired](screenshots/tired.jpeg) |
 
 ---
 
