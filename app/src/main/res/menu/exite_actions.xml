@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_share"
+        android:title="Share with friends" />
+    <item
+        android:id="@+id/action_enjoy"
+        android:title="Would you like to enjoy?" />
+    <item
+        android:id="@+id/action_dance"
+        android:title="Would you like to dance?" />
+</menu>

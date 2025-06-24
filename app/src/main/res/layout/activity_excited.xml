@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/excitedLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="#FFB347">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/sadToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#707"
+        android:title="Feeling Sad 😢"
+        android:titleTextColor="#000000" />
+    <Switch
+        android:id="@+id/switchExcit"
+        android:layout_width="384dp"
+        android:layout_height="58dp"
+        android:text="High Excitement Mode 🌟"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:textStyle="italic|bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Feeling Excited?"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:paddingBottom="8dp"/>
+
+            <EditText
+                android:id="@+id/editExcitedNote"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/rounded_edittext"
+                android:gravity="top|start"
+                android:hint="Express your excitement"
+                android:inputType="textMultiLine"
+                android:padding="16dp"
+                android:textSize="16sp" />
+
+            <!-- Button 1 -->
+            <Button
+                android:id="@+id/btnShowText1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Why are you excited?"
+                android:backgroundTint="#FF69B4"
+                android:layout_marginTop="10dp"
+                android:textColor="#FFFFFF" />
+
+            <!-- Text response 1 -->
+            <TextView
+                android:id="@+id/textExcite1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="I'm excited because great things are coming!"
+                android:textSize="16sp"
+                android:padding="10dp"
+                android:textColor="#1F1818"
+                android:visibility="gone" />
+
+
+            <Button
+                android:layout_marginTop="20dp"
+                android:id="@+id/btnShowText2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What will you do next?"
+                android:backgroundTint="#FFD700"
+                android:textColor="#000000" />
+
+
+            <TextView
+                android:id="@+id/textExcite2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="I'm going to celebrate and share it with others!"
+                android:textSize="16sp"
+                android:padding="10dp"
+                android:textColor="#1F1818"
+                android:visibility="gone" />
+
+            <!-- App's friendly response -->
+            <TextView
+                android:id="@+id/appExcitementResponse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="16sp"
+                android:padding="10dp"
+                android:textColor="#4A148C"
+                android:visibility="gone" />
+
+
+            <TextView
+                android:id="@+id/excitementPrompt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Would you like to show your excitement using..."
+                android:textSize="16sp"
+                android:textStyle="italic"
+                android:textColor="#6A1B9A"
+                android:visibility="gone"
+                android:padding="10dp" />
+            <TextView
+                android:id="@+id/emojiBurst"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🎉🎈🥳"
+                android:textSize="32sp"
+                android:visibility="gone"
+                android:layout_gravity="center"
+                android:paddingTop="16dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

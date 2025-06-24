@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MoodBoard1" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+    <style name="Theme.MoodBoard1.Splash" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Splash background color -->
+        <item name="android:windowBackground">@color/black</item>
+
+        <!-- Optional: Full screen (no status bar/title bar) -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="Theme.MoodBoard1" parent="Base.Theme.MoodBoard1" />
+</resources>

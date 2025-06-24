@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/happyLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFDE7"
+    android:padding="15dp"
+    tools:context=".Happy">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- Toolbar -->
+
+        <!-- Happy Image -->
+
+        <!-- Motivational Quote -->
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/happyToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:background="#FFEB3B"
+            android:theme="?attr/actionBarTheme"
+            android:title="Feeling Happy 😄"
+            android:titleTextColor="#000000" />
+
+        <ImageView
+            android:id="@+id/happyImage"
+            android:layout_width="98dp"
+            android:layout_height="81dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:contentDescription="Happy Face"
+            android:src="@drawable/happy" />
+
+        <!-- Question Text -->
+
+        <!-- EditText for User Response -->
+        <TextView
+            android:id="@+id/happyQuote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:padding="10dp"
+            android:text="Happiness is contagious – spread it around!"
+            android:textAlignment="center"
+            android:textColor="#4CAF50"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:text="Why are you so happy? Did something good happen?"
+            android:textColor="#000000"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/happyReasonInput"
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:gravity="top|start"
+            android:background="@drawable/rounded_edittext"
+            android:hint="Type your reason here..."
+            android:padding="12dp"
+            android:textSize="16sp" />
+
+        <!-- Submit Button -->
+        <Button
+            android:id="@+id/happySubmitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tell Me"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#03A9F4"
+            android:textColor="#FFFFFF" />
+        <TextView
+            android:id="@+id/happyResponseText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Great! 😊"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#4CAF50"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:visibility="gone" />
+        <!-- Continue Button -->
+        <!-- Playlist Header -->
+        <TextView
+            android:id="@+id/playlistHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="🎶 Happy Vibes Playlist"
+            android:textColor="#FF9800"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <!-- Playlist Container -->
+        <LinearLayout
+            android:id="@+id/playlistContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Song 1 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:background="#FFE082"
+                android:layout_marginBottom="10dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Its-9xm Wali Morning"
+                    android:textSize="16sp"
+                    android:textColor="#000000" />
+
+                <Button
+                    android:id="@+id/playSong1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Play"
+                    android:textColor="#FFFFFF"
+                    android:backgroundTint="#4CAF50" />
+
+            </LinearLayout>
+
+            <!-- Song 2 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:background="#FFE082"
+                android:layout_marginBottom="10dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Good Life - OneRepublic"
+                    android:textSize="16sp"
+                    android:textColor="#000000" />
+
+                <Button
+                    android:id="@+id/playSong2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Play"
+                    android:textColor="#FFFFFF"
+                    android:backgroundTint="#4CAF50" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

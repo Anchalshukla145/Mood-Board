@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFCDD2"
+    android:padding="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Toolbar -->
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/angryToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#D32F2F"
+            android:title="Feeling Angry 😠"
+            android:titleTextColor="#FFFFFF" />
+
+        <!-- Prompt Text -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Let it out. What made you angry?"
+            android:textColor="#B71C1C"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp" />
+
+        <!-- Anger Input Box -->
+        <EditText
+            android:id="@+id/editAngerInput"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:hint="Type here..."
+            android:gravity="top|start"
+            android:background="@drawable/rounded_edittext"
+            android:padding="16dp"
+            android:textSize="16sp"
+            android:textColor="#000000" />
+
+        <!-- Vent Button -->
+        <Button
+            android:id="@+id/ventAngerBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Let It Out!"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#C62828"
+            android:textColor="#FFFFFF" />
+
+        <!-- Show calming quote -->
+        <TextView
+            android:id="@+id/angerQuote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#1B5E20"
+            android:backgroundTint="#E8F5E9"
+            android:background="#FFFFFF"
+            android:padding="16dp"
+            android:textSize="16sp"
+            android:layout_marginTop="20dp"
+            android:visibility="gone" />
+
+        <!-- Breathing Button -->
+        <Button
+            android:id="@+id/breatheBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Do a Breathing Exercise"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#EF5350"
+            android:textColor="#FFFFFF" />
+
+        <!-- Funny distraction -->
+        <Button
+            android:id="@+id/punchPillowBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Punch a Pillow (Virtually!)"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#F44336"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+</ScrollView>

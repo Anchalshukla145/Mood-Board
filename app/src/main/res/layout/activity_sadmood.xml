@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="#E0D364">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/sadToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#707BA0"
+        android:title="Feeling Sad 😢"
+        android:titleTextColor="#000000" />
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0D364"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:text="Feeling Sad?"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#070707" />
+
+        <TextView
+            android:id="@+id/subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Want to let it out? Write your thoughts below."
+            android:textColor="#050505"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/editThoughts"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/rounded_edittext"
+            android:gravity="top|start"
+            android:hint="Say freely... no judgements:"
+            android:inputType="textMultiLine"
+            android:padding="16dp"
+            android:textSize="16sp"
+            android:textColor="#1F1818" />
+
+        <Button
+            android:id="@+id/ventEverythingBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vent Everything!"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#3949AB"
+            android:layout_marginBottom="15dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="or"
+            android:textColor="#0F0D0D"
+            android:layout_marginBottom="15dp"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/littleVentBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Get a little Boost.."
+            android:backgroundTint="#5C6BC0"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:id="@+id/motivationText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="16sp"
+            android:background="#FFFFFF"
+            android:elevation="4dp"
+            android:padding="16dp"
+            android:textColor="#1A237E"
+            android:layout_marginBottom="15dp"
+            android:visibility="gone"
+            android:backgroundTint="#C5CAE9" />
+
+        <TextView
+            android:id="@+id/motivationText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="16sp"
+            android:background="#FFFFFF"
+            android:elevation="4dp"
+            android:padding="16dp"
+            android:textColor="#1A237E"
+            android:layout_marginBottom="15dp"
+            android:visibility="gone"
+            android:backgroundTint="#BBDEFB" />
+
+        <Button
+            android:id="@+id/watchUpliftingBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Watch Something Uplifting"
+            android:backgroundTint="#3DB1A5"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="20dp" />
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

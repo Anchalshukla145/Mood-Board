@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tiredLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#B0BEC5">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/sadToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#707BA0"
+        android:title="Feeling Sad 😢"
+        android:titleTextColor="#000000" />
+    <TextView
+        android:id="@+id/tiredTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Feeling Tired 😴"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#263238"
+        android:layout_marginBottom="12dp" />
+
+    <EditText
+        android:id="@+id/editTiredNote"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/rounded_edittext"
+        android:hint="Why are you feeling tired?"
+        android:gravity="top|start"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnTiredReflect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reflect"
+        android:backgroundTint="#78909C"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnTiredRelax"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play Relaxing Music 🎵"
+        android:backgroundTint="#546E7A"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:id="@+id/textTiredResponse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:textColor="#2E7D32"
+        android:visibility="gone"
+        android:background="#ECEFF1"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnTiredAction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What would help now?"
+        android:backgroundTint="#455A64"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/tiredEmojiBurst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="💤💤💤"
+        android:textSize="28sp"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

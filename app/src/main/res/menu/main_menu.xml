@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+
+    android:id="@+id/i1"
+    android:title="contact us"
+    android:icon="@drawable/relaxed"
+    app:showAsAction="collapseActionView"
+    />
+    <item
+
+        android:id="@+id/i2"
+        android:title="Feed back"
+        android:icon="@drawable/sad"
+        app:showAsAction="collapseActionView"
+        />
+    <item
+
+        android:id="@+id/i3"
+        android:title="Exit"
+        android:icon="@drawable/happy"
+        app:showAsAction="collapseActionView"
+        />
+</menu>
